@@ -16,7 +16,6 @@ def initiate():
                                          description=data['description'])
         car_make_instances.append(thisObj)
 
-
     # Create CarModel instances with the corresponding CarMake instances
     car_model_data = [
         {"name": "Pathfinder", "type": "SUV", "year": 2023,
